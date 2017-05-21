@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo Start build phase
+      - gradle --version
+      - gradle tasks
+      - gradle build
