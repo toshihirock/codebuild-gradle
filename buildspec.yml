@@ -6,6 +6,7 @@ phases:
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
+      - cd src && pwd
   build:
     commands:
       - echo Start build phase
