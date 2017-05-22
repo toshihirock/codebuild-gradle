@@ -9,4 +9,4 @@ phases:
   build:
     commands:
       - echo Start build phase
-      - docker run --rm -v "$PWD":/project -w /project --name gradle gradle:jdk8 gradle build
+      - docker run --name gradle gradle:jdk8 gradle build
